@@ -1,0 +1,30 @@
+BACKEND
+    npm init -y 
+    npm i express
+    npm i -D nodemon
+    npm i morgan   :: para ver la peticones por consola
+    npm i mongoose
+    npm i bcryptjs  :: encriptar una contraseña 
+    npm i jsonwebtoken  :: - generar un token
+    npm i dotenv
+
+FRONTEND
+
+
+
+COMPLEMENTO
+controllers     = funciones que se ejecutaran al visitar una ruta o url
+lisbs           = crear funciones para ser utilizado varias veces
+middlewares     = para proteger nuestras rutas nos van permitir crear funciones que antes de llegar ala ruta se validen
+models          = creamos el esquema para mongoDB
+routes          = rutas que el frontend pedira
+validators / schemas    = validacion para un caracter utilizamos ZOt
+
+
+SQLTools
+Docker
+Live Share
+MongoDB
+
+
+usar jwt.io para ver token
