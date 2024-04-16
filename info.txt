@@ -8,6 +8,7 @@ BACKEND
     npm i jsonwebtoken  :: - generar un token
     npm i dotenv
     npm i cookie-parser
+    npm i zod   ::: validacion de datos
 
 FRONTEND
 
@@ -27,5 +28,5 @@ Docker
 Live Share
 MongoDB
 
-
 usar jwt.io para ver token
+VALIDACIONES
