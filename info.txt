@@ -9,8 +9,18 @@ BACKEND
     npm i dotenv
     npm i cookie-parser
     npm i zod   ::: validacion de datos
+    npm i cors
 
 FRONTEND
+    npm create vite
+    CLIENT
+        npm install -D tailwindcss postcss autoprefixer
+        npx tailwindcss init -p
+        npm install react-router-dom
+        npm install react-hook-form
+        npm install axios
+        npm install js-cookie :: permite leer las cookies del frontend
+        npm install dayjs
 
 
 
@@ -22,7 +32,6 @@ models          = creamos el esquema para mongoDB
 routes          = rutas que el frontend pedira
 validators / schemas    = validacion para un caracter utilizamos ZOt
 
-
 SQLTools
 Docker
 Live Share
@@ -30,3 +39,18 @@ MongoDB
 
 usar jwt.io para ver token
 VALIDACIONES
+CORS:: añadimos en proxy la ruta de backend. o monoRepo para comunicarlo
+protectes router
+
+
+IMPORT: LO PROBE FUNCIONO :: lo ejecuten dentro de client  antes utilice  npm cache clean --force.
+npm ERR! errno UNABLE_TO_VERIFY_LEAF_SIGNATURE ::: tenfo este problema
+npm config set strict-ssl false   // desactiva la verificacion ssl
+npm config set strict-ssl true
+POR ULTIMO npm install. y funciono.
+
+NO LO HE PROBADO
+También puede deshabilitar la verificación SSL en su código usando la variable de entorno del nodo:
+en su archivo index.js, agregue:
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+Tenga en cuenta que este no es un buen hábito ya que no intentará verificar la validez del certificado https.
