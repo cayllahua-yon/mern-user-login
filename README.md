@@ -1,5 +1,5 @@
 # mern-user-login
-aplicación utilizando MERN para control de actividades, contiene login, control de rutas y cookies.
+Aplicación utilizando MERN para control de actividades, contiene login, control de rutas y cookies.
 
 Para lo cual se divide en 2 partes, el backend y frontend, asimismo indicamos lo utilizado:
 > [!BACKEND]
@@ -16,7 +16,6 @@ Para lo cual se divide en 2 partes, el backend y frontend, asimismo indicamos lo
    - npm i cors
 
 > [!FRONTEND]
-FRONTEND
   -  npm create vite
     CLIENT
        - npm install -D tailwindcss postcss autoprefixer
@@ -28,9 +27,16 @@ FRONTEND
        - npm install dayjs
 
 > [!CARPETAS]
-- controllers     = funciones que se ejecutaran al visitar una ruta o url
-- ibs           = crear funciones para ser utilizado varias veces
-- middlewares     = para proteger nuestras rutas nos van permitir crear - - funciones que antes de llegar ala ruta se validen
-models          = creamos el esquema para mongoDB
-routes          = rutas que el frontend pedira
-validators / schemas    = validacion para un caracter utilizamos ZOt
+- controllers   :: funciones que se ejecutaran al visitar una ruta o url
+- libs          :: crear funciones para ser utilizado varias veces
+- middlewares   :: para proteger nuestras rutas nos van permitir crear funciones que antes de llegar ala ruta se validen
+- models        :: creamos el esquema para mongoDB
+- routes        :: rutas que el frontend pedira
+- validators / schemas :: validacion para un caracter utilizamos Zot
+
+> [!PRECAUCIÓN]
+IMPORT: LO PROBE FUNCIONO :: lo ejecuten dentro de client  antes utilice  npm cache clean --force.
+npm ERR! errno UNABLE_TO_VERIFY_LEAF_SIGNATURE ::: tengo este problema
+npm config set strict-ssl false   // desactiva la verificacion ssl
+npm config set strict-ssl true
+> POR ULTIMO npm install. y funciono.
