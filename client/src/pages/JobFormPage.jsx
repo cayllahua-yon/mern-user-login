@@ -1,6 +1,6 @@
 import {useForm} from "react-hook-form"
 import {useJobs} from "../context/JobsContexto"
-import {useNavigate, useParams} from "react-router-dom"
+import {Link, useNavigate, useParams} from "react-router-dom"
 import { useEffect} from "react";
 
 import dayjs from "dayjs";
@@ -71,9 +71,14 @@ function JobFormPage() {
                     <label htmlFor="title">Fecha</label>
                     <input type="date" {...register("date")} className="w-full bg-zinc-700 text-white px-4 py-2 rounded-md my-2" />
 
-                    <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                        Guardar
-                    </button>
+                    <div className="flex justify-between">
+                        <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Guardar
+                        </button>
+                        <Link to={"/jobs"}  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                            Cancelar
+                        </Link>
+                    </div>
                 </form>
             </div>
         </div>

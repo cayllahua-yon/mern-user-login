@@ -46,7 +46,7 @@ function RegisterPage() {
                     <input type="password" {...register("password", {required: true} )}  className="w-full bg-zinc-700 text-white px-4 py-2 rounded-md mt-2" placeholder="contrasena" />
                     {errors.password && (<p className="text-red-500">Contraseña es requerido</p>)}
                     
-                    <button type="submit" className="mt-2">
+                    <button type="submit" className="mt-2  bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
                         Registrar
                     </button>
                 </form>
