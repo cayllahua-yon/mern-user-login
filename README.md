@@ -35,8 +35,9 @@ Para lo cual se divide en 2 partes, el backend y frontend, asimismo indicamos lo
 - validators / schemas :: validacion para un caracter utilizamos Zot
 
 > [!PRECAUCIÓN]
-IMPORT: LO PROBE FUNCIONO :: lo ejecuten dentro de client  antes utilice  npm cache clean --force.
-npm ERR! errno UNABLE_TO_VERIFY_LEAF_SIGNATURE ::: tengo este problema
-npm config set strict-ssl false   // desactiva la verificacion ssl
-npm config set strict-ssl true
-POR ULTIMO npm install. y funciono.
+- IMPORT: LO PROBE FUNCIONO :: lo ejecuten dentro de client  antes utilice 
+- npm cache clean --force.
+- npm ERR! errno UNABLE_TO_VERIFY_LEAF_SIGNATURE ::: tengo este problema
+- npm config set strict-ssl false   // desactiva la verificacion ssl
+- npm config set strict-ssl true
+- POR ULTIMO npm install. y funciono.
