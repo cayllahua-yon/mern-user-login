@@ -39,4 +39,4 @@ IMPORT: LO PROBE FUNCIONO :: lo ejecuten dentro de client  antes utilice  npm ca
 npm ERR! errno UNABLE_TO_VERIFY_LEAF_SIGNATURE ::: tengo este problema
 npm config set strict-ssl false   // desactiva la verificacion ssl
 npm config set strict-ssl true
-> POR ULTIMO npm install. y funciono.
+POR ULTIMO npm install. y funciono.
